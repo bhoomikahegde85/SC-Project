@@ -17,6 +17,14 @@ Ensure you have Python installed. The following libraries are required:
 - `datasets`
 - `pandas`
 - `sentence-transformers`
+- `torch`
+- `elasticsearch`
+- `datasets`
+- `pandas tqdm fastapi pydantic chromadb huggingface_hub`
+- `bitsandbytes`
+- `SPARQLWrapper`
+- `rdflib-sqlalchemy`
+- `networkx pyvis`
 
 ## Installation
 
@@ -25,7 +33,15 @@ You can install the necessary dependencies using the commands provided in the no
 ```bash
 !pip install rdflib
 !pip install datasets
-!pip install sentence-transformers
+!pip install transformers
+!pip install torch
+!pip install elasticsearch
+!pip install datasets
+!pip install pandas tqdm fastapi pydantic chromadb huggingface_hub
+!pip install bitsandbytes
+!pip install SPARQLWrapper
+!pip install rdflib-sqlalchemy
+!pip install networkx pyvis
 ```
 
 ## How to Use
@@ -40,12 +56,6 @@ You can install the necessary dependencies using the commands provided in the no
 ## File Overview
 
 - **Notebook**: Contains the complete workflow for Knowledge Graph setup and interaction.
-
-## Future Enhancements
-
-- Expand to integrate additional data sources.
-- Implement advanced querying and visualization techniques.
-- Utilize machine learning models for semantic enrichment.
 
 ## License
 
