@@ -1,6 +1,52 @@
-# Relational Knowledge graph for question answering on relational databases
+# Knowledge Graph Creation and Querying
 
+This repository contains a Jupyter Notebook that demonstrates the process of creating, managing, and querying a Knowledge Graph using Python.
 
-The current approaches for tabular Question Answering (QA) using Retrieval-Augmented Generation (RAG) agents do not perform as effectively as they do with unstructured textual data, primarily because these methods are modeled on approaches designed for unstructured data. As a result, large language models (LLMs) often hallucinate, particularly when working with quantitative data that is prevalent in tables. Improving Table QA and integrating it with RAG and other LLM applications could revolutionize Business Intelligence and Analytics.
-To address this, we propose a novel approach to Table QA by transforming relational databases into relational knowledge graphs using mapping languages like R2RML, as specified by W3C. We will then build a RAG pipeline using a ReAct agent on top of this relational knowledge graph. Additionally, we aim to enhance the knowledge graph using standard techniques to improve the extraction of semantic relationships and to contextualize the quantitative information for more effective multi-hop table QA.
-For the scope of our course project, we will focus on RDF (Resource Description Framework) knowledge graphs, which utilize triplets. If we achieve promising results, we plan to extend this approach by mapping relational databases to hyper-relational knowledge graphs, which are better suited to represent the n-ary relationships found in relational models.  If successful, the potential applications of this approach are vast. Our system will also be capable of handling complex, multi-step queries by utilizing SPARQL queries on the knowledge graph, addressing a key limitation of traditional RAG systems. This hybrid approach, combining AI and query-based techniques, offers a robust solution for platforms dealing with complex data. Our goal is to provide a proof of concept through this course project and continue developing the system by mapping relational databases to hyper-relational knowledge graphs in future work.
+## Features
+
+- **Library Installation**: Automatically installs required libraries like `rdflib`, `datasets`, and `sentence-transformers`.
+- **Knowledge Graph Construction**: Builds a Knowledge Graph using `rdflib` with RDF, RDFS, and SPARQL support.
+- **SPARQL Queries**: Includes examples of how to interact with the Knowledge Graph using SPARQL queries.
+- **Data Integration**: Utilizes `pandas` for preprocessing and handling data inputs.
+
+## Dependencies
+
+Ensure you have Python installed. The following libraries are required:
+
+- `rdflib`
+- `datasets`
+- `pandas`
+- `sentence-transformers`
+
+## Installation
+
+You can install the necessary dependencies using the commands provided in the notebook:
+
+```bash
+!pip install rdflib
+!pip install datasets
+!pip install sentence-transformers
+```
+
+## How to Use
+
+1. **Setup**: Open the notebook file in Jupyter or any compatible IDE.
+2. **Run the Cells**: Execute the cells sequentially to:
+   - Install dependencies.
+   - Construct the Knowledge Graph.
+   - Query the graph using SPARQL.
+3. **Modify**: You can adapt the code to integrate your own datasets and explore Knowledge Graphs for different use cases.
+
+## File Overview
+
+- **Notebook**: Contains the complete workflow for Knowledge Graph setup and interaction.
+
+## Future Enhancements
+
+- Expand to integrate additional data sources.
+- Implement advanced querying and visualization techniques.
+- Utilize machine learning models for semantic enrichment.
+
+## License
+
+This project is open-source and available under the MIT License.
