@@ -4,8 +4,7 @@ This repository contains a Jupyter Notebook that demonstrates the process of cre
 
 ## Features
 
-- **Library Installation**: Automatically installs required libraries like `rdflib`, `datasets`, and `sentence-transformers`.
-- **Knowledge Graph Construction**: Builds a Knowledge Graph using `rdflib` with RDF, RDFS, and SPARQL support.
+- **Library Installation**: Automatically installs all the required libraries.
 - **SPARQL Queries**: Includes examples of how to interact with the Knowledge Graph using SPARQL queries.
 - **Data Integration**: Utilizes `pandas` for preprocessing and handling data inputs.
 
