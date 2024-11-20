@@ -1,4 +1,4 @@
-# SC-Project
+# Relational Knowledge graph for question answering on relational databases
 
 
 The current approaches for tabular Question Answering (QA) using Retrieval-Augmented Generation (RAG) agents do not perform as effectively as they do with unstructured textual data, primarily because these methods are modeled on approaches designed for unstructured data. As a result, large language models (LLMs) often hallucinate, particularly when working with quantitative data that is prevalent in tables. Improving Table QA and integrating it with RAG and other LLM applications could revolutionize Business Intelligence and Analytics.
