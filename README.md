@@ -1,4 +1,4 @@
-# Knowledge Graph Creation and Querying
+# Relational Knowledge graph for question answering on relational databases
 
 This repository contains a Jupyter Notebook that demonstrates the process of creating, managing, and querying a Knowledge Graph using Python.
 
